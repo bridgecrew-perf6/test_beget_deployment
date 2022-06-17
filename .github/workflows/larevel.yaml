@@ -18,4 +18,4 @@ jobs:
           username: ${{ secrets.PROD_USERNAME }}
           host: ${{ secrets.PROD_HOST }}
           password: ${{ secrets.PROD_PASSWORD }}
-          script: 'cd test; chmod +x scripts/beget_deploy.sh && ./scripts/beget_deploy.sh'
+          script: 'cd test; ls'
