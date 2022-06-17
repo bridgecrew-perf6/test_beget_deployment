@@ -18,4 +18,4 @@ jobs:
           username: ${{ secrets.PROD_USERNAME }}
           host: ${{ secrets.PROD_HOST }}
           password: ${{ secrets.PROD_PASSWORD }}
-          script: 'ssh localhost -p 222 -t; ls'
+          script: 'ssh localhost -p 222 -t; node -v'
